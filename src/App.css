@@ -1,0 +1,31 @@
+body {
+  background-color: #9266ff;
+}
+.App{
+  background-color: #3f3160;
+  height: 500px;
+  width: 400px;
+  margin: 30px auto;
+}
+#todo input{
+  background-color: cornflowerblue;
+  border:0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+}
+#todo input:focus,#todo button:focus{
+  outline: none;
+}
+#todo button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: violet;
+  cursor: pointer;
+  color: white;
+}
